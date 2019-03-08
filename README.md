@@ -1,24 +1,21 @@
 # Fabrik
 Factory
 
-Downloaded Vagrant from: https://www.vagrantup.com/downloads.html
-Downloaded Virtualbox from: https://www.virtualbox.org/wiki/Downloads
-
-- While generating box 0.0.1 I elected to not install grub.
-
 ## Virtual Ansible Control Machine
-- Generate Virtual Machine
-- Get Ansible
-- Configure Ansible
+[x] Generate Virtual Machine
+[ ] Get Ansible
+[ ] Configure Ansible
+---
+Host Machine prerequisites:
+- Downloaded Vagrant from: https://www.vagrantup.com/downloads.html
+- Downloaded Virtualbox from: https://www.virtualbox.org/wiki/Downloads
 
 ### Generate Virtual Machine
-Using pogo Vagrantfile, but replaced with original box (geerlingguy/ubuntu1804)
+[donrwalsh/ansible-control-machine](https://app.vagrantup.com/donrwalsh/boxes/ansible-control-machine)
 
-Created donrwalsh/ansible-control-machine by using pogo finalize approach (0.0.1 has vanilla upgrades). I elected to not install grub when asked.
-
-Storing chmod+x'd files in Git: https://stackoverflow.com/questions/40978921/how-to-add-chmod-permissions-to-file-in-git
-
-Used functions instead of aliases. see functions.sh, both functions are available for use as soon as the box is provisioned.
+- Elected not to install grub when asked.
+- [In case you need to convince GitHub that files are executable](https://stackoverflow.com/questions/40978921/how-to-add-chmod-permissions-to-file-in-git).
+- Using functions instead of aliases (functions.sh).
 
 ### Get Ansible
 https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-ansible-on-ubuntu-18-04
