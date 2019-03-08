@@ -2,9 +2,13 @@
 Factory
 
 ## Virtual Ansible Control Machine
+
 [x] Generate Virtual Machine
+
 [ ] Get Ansible
+
 [ ] Configure Ansible
+
 ---
 Host Machine prerequisites:
 - Downloaded Vagrant from: https://www.vagrantup.com/downloads.html
