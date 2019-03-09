@@ -5,9 +5,9 @@
 - Downloaded Virtualbox from: https://www.virtualbox.org/wiki/Downloads
 
 ## Task List
-- Generate Virtual Machine
-- Get Ansible
-- Configure Ansible
+- [x] Generate Virtual Machine
+- [x] Get Ansible
+- [ ] Configure Ansible
 
 ### Generate Virtual Machine
 [donrwalsh/ansible-control-machine](https://app.vagrantup.com/donrwalsh/boxes/ansible-control-machine)
