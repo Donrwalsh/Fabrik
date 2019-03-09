@@ -29,4 +29,9 @@ the HelloWorld.yml playbook demonstrates running plays against the localhost. Ru
 
 Run encrypted version of this playbook via:
 
-`ansible-playbook --ask-vault-pass EncryptedHelloWorld.yml`
+`ansible-playbook --ask-vault-pass /vagrant/EncryptedHelloWorld.yml`
+
+#### ansible-vault commands
+
+`ansible-vault create foo.yml`
+`ansible-vault edit foo.yml`

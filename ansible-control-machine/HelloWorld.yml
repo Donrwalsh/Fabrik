@@ -3,7 +3,7 @@
   hosts: 127.0.0.1
   connection: local
   tasks:
-  - name: Create a file called '/tmp/testfile.txt' with the content 'hello world'.
+  - name: Create a file called '/vagrant/testfile.txt' with the content 'hello world'.
     copy: 
       content: "hello world\n" 
       dest: /vagrant/testfile.txt
