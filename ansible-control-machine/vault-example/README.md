@@ -5,9 +5,13 @@ Simple ansible-vault example. `HelloWorld.yml` and `EncryptedHelloWorld.yml` are
 
 ## Commands
 `ansible-vault create EncryptedHelloWorld.yml`
+
 `ansible-vault edit EncryptedHelloWorld.yml`
+
 `ansible-vault encrypt_string` :: Then copy and paste the generated value into a vars file.
 
 Running the playbooks:
+
 `ansible-playbook --ask-vault-pass /vagrant/vault-example/HelloWorld.yml`
+
 `ansible-playbook --ask-vault-pass /vagrant/vault-example/EncryptedHelloWorld.yml`

@@ -24,3 +24,4 @@ Helpful to verify things are installed properly: https://stackoverflow.com/quest
 `/etc/ansible/ansible.cfg` is the default ansible.cfg file that is created: https://docs.ansible.com/ansible/latest/reference_appendices/config.html#ansible-configuration-settings
 
 #### ansible-vault
+No configuration required, simply use `ansible-vault` commands. 
