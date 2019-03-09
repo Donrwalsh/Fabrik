@@ -25,5 +25,8 @@ Helpful to verify things are installed properly: https://stackoverflow.com/quest
 
 the HelloWorld.yml playbook demonstrates running plays against the localhost. Run via:
 
-`cd /vagrant`
-`ansible-playbook HelloWorld.yml`
+`ansible-playbook /vagrant/HelloWorld.yml`
+
+Run encrypted version of this playbook via:
+
+`ansible-playbook --ask-vault-pass EncryptedHelloWorld.yml`
