@@ -23,15 +23,4 @@ Helpful to verify things are installed properly: https://stackoverflow.com/quest
 ### Configure Ansible
 `/etc/ansible/ansible.cfg` is the default ansible.cfg file that is created: https://docs.ansible.com/ansible/latest/reference_appendices/config.html#ansible-configuration-settings
 
-the HelloWorld.yml playbook demonstrates running plays against the localhost. Run via:
-
-`ansible-playbook /vagrant/HelloWorld.yml`
-
-Run encrypted version of this playbook via:
-
-`ansible-playbook --ask-vault-pass /vagrant/EncryptedHelloWorld.yml`
-
-#### ansible-vault commands
-
-`ansible-vault create foo.yml`
-`ansible-vault edit foo.yml`
+#### ansible-vault

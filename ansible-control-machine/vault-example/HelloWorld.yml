@@ -5,5 +5,5 @@
   tasks:
   - name: Create a file called '/vagrant/testfile.txt' with the content 'hello world'.
     copy: 
-      content: "hello world\n" 
+      content: "{{ secret }}"
       dest: /vagrant/testfile.txt
