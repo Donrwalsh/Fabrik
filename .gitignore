@@ -2,3 +2,5 @@
 .vagrant/
 *.box
 *.retry
+
+do-not-commit.md
